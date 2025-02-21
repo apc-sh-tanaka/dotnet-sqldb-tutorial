@@ -10,7 +10,6 @@ using DotNetAppSqlDb.Models;using System.Diagnostics;
 
 namespace DotNetAppSqlDb.Controllers
 {
-    [Authorize]
     public class TodosController : Controller
     {
         private MyDatabaseContext db = new MyDatabaseContext();
